@@ -72,7 +72,6 @@ Power Automate | SharePoint Online | Office 365 Outlook
 ---
 
 ## 📐 Flow Architecture
-## 📐 Flow Architecture
 ```
 Recurrence Trigger (Every Saturday 8:00 AM)
         ↓
@@ -97,10 +96,10 @@ Send Email (Office 365 Outlook) → HSE Team
 ## 📸 Screenshots
 
 ### Flow Structure
-![Flow Structure](Workflow%20Screen%20Shots/Workflow_SS.png)
+![Flow Structure](Screen%20Shots%20of%20the%20Process/Workflow_SS.png)
 
 ### Email Output
-![Email Output](Workflow%20Screen%20Shots/Email_SS.png)
+![Email Output](Screen%20Shots%20of%20the%20Process/Email_SS.png)
 
 ---
 
