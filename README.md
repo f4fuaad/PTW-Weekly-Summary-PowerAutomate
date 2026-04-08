@@ -72,3 +72,50 @@ Power Automate | SharePoint Online | Office 365 Outlook
 ---
 
 ## 📐 Flow Architecture
+## 📐 Flow Architecture
+```
+Recurrence Trigger (Every Saturday 8:00 AM)
+        ↓
+Get Items — Active Permits (SharePoint PTW_Register)
+        ↓
+Create HTML Table 1 — Active Permits
+        ↓
+Filter Array — ExpiryDate ≤ Today + 7 days
+        ↓
+Create HTML Table 2 — Expiring This Week
+        ↓
+Get Items 2 — Overdue / Failed Permits (SharePoint PTW_Register)
+        ↓
+Create HTML Table 3 — Overdue / Failed
+        ↓
+Compose — Branded 3-Section HTML Email Body
+        ↓
+Send Email (Office 365 Outlook) → HSE Team
+```
+---
+
+## 📸 Screenshots
+
+### Flow Structure
+![Flow Structure](Workflow%20Screen%20Shots/Workflow_SS.png)
+
+### Email Output
+![Email Output](Workflow%20Screen%20Shots/Email_SS.png)
+
+---
+
+## ⚠️ Data Note
+
+All data shown is fully synthetic — no real company, project, 
+or individual data is used. Generated for portfolio 
+demonstration purposes only.
+
+---
+
+## 👤 Author
+
+**Syed Mohammed Fuaad**
+Power BI & Power Apps Developer | SHES Division | LNG Mega-Project, Qatar
+3+ years building BI solutions and automation systems for industrial HSE teams.
+
+[GitHub](https://github.com/f4fuaad) · [LinkedIn](https://www.linkedin.com/in/syed-fuaad) · [▶️ Equipment Inspection Tracker Demo](https://youtu.be/YI05PV3pmIM)
